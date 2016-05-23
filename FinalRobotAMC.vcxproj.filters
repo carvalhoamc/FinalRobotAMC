@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="eFLL">
+      <UniqueIdentifier>{1434a353-9f4f-42c5-9e42-90d6a786527b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FinalRobotAMC.ino" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="__vm\.FinalRobotAMC.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eFLL\Fuzzy.h">
+      <Filter>eFLL</Filter>
+    </ClInclude>
+    <ClInclude Include="eFLL\FuzzyComposition.h">
+      <Filter>eFLL</Filter>
+    </ClInclude>
+    <ClInclude Include="eFLL\FuzzyInput.h">
+      <Filter>eFLL</Filter>
+    </ClInclude>
+    <ClInclude Include="eFLL\FuzzyIO.h">
+      <Filter>eFLL</Filter>
+    </ClInclude>
+    <ClInclude Include="eFLL\FuzzyOutput.h">
+      <Filter>eFLL</Filter>
+    </ClInclude>
+    <ClInclude Include="eFLL\FuzzyRule.h">
+      <Filter>eFLL</Filter>
+    </ClInclude>
+    <ClInclude Include="eFLL\FuzzyRuleAntecedent.h">
+      <Filter>eFLL</Filter>
+    </ClInclude>
+    <ClInclude Include="eFLL\FuzzyRuleConsequent.h">
+      <Filter>eFLL</Filter>
+    </ClInclude>
+    <ClInclude Include="eFLL\FuzzySet.h">
+      <Filter>eFLL</Filter>
+    </ClInclude>
+    <ClInclude Include="__vm\.CarvalhoAMC.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MPU6050spec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MotorCC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SensorLinha.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ControleFuzzy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="eFLL\Fuzzy.cpp">
+      <Filter>eFLL</Filter>
+    </ClCompile>
+    <ClCompile Include="eFLL\FuzzyComposition.cpp">
+      <Filter>eFLL</Filter>
+    </ClCompile>
+    <ClCompile Include="eFLL\FuzzyInput.cpp">
+      <Filter>eFLL</Filter>
+    </ClCompile>
+    <ClCompile Include="eFLL\FuzzyIO.cpp">
+      <Filter>eFLL</Filter>
+    </ClCompile>
+    <ClCompile Include="eFLL\FuzzyOutput.cpp">
+      <Filter>eFLL</Filter>
+    </ClCompile>
+    <ClCompile Include="eFLL\FuzzyRule.cpp">
+      <Filter>eFLL</Filter>
+    </ClCompile>
+    <ClCompile Include="eFLL\FuzzyRuleAntecedent.cpp">
+      <Filter>eFLL</Filter>
+    </ClCompile>
+    <ClCompile Include="eFLL\FuzzyRuleConsequent.cpp">
+      <Filter>eFLL</Filter>
+    </ClCompile>
+    <ClCompile Include="eFLL\FuzzySet.cpp">
+      <Filter>eFLL</Filter>
+    </ClCompile>
+    <ClCompile Include="MPU6050spec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MotorCC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SensorLinha.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ControleFuzzy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="GPL3.txt" />
+  </ItemGroup>
+</Project>
