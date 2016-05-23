@@ -31,6 +31,7 @@ class ControleFuzzyClass
 	int output1fuzzy();  //pwm1
 	int output2fuzzy();  //pwm2
 
+	Fuzzy* fuzzy;
 
 
 };

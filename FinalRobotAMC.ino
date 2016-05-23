@@ -52,25 +52,13 @@ void leLinha();
 void fazControle();
 void pwmAjuste();
 
-
-
-
-
 void setup()
 {
 	MPUobj.Setup(0,0);
 	Serial.begin(9600);
 	Serial.println("setup");
 	MotorCCObj.init();
-	
-	
-
-
-
-	
-	
-		
-
+	ControleFuzzyObj.init();
 
 	//tempo em ms
 	leSensoresIMU.setInterval(10); 
@@ -97,7 +85,7 @@ void setup()
 void loop()
 {
 	
-	Serial.println("loop");
+	Serial.println("Executa!");
 	raiz.run();
 	
 
@@ -130,6 +118,11 @@ void leLinha() {
 
 void fazControle() {
 
+	//Variaveis de entrada
+	ControleFuzzyObj.fuzzy->setInput(1, yawLido);
+	ControleFuzzyObj.fuzzy->setInput(2, pitchLido);
+	ControleFuzzyObj.fuzzy->setInput(3, resultadoSensorDeLinha);
+	//Variaveis de saida
 	pwm1 = ControleFuzzyObj.output1fuzzy();
 	pwm2 = ControleFuzzyObj.output2fuzzy();
 }
